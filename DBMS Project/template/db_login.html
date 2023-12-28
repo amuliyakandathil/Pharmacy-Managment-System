@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Med Xpress</title>
+        <link rel="stylesheet" href="../static/db_loginstyle.css">
+    </head>
+    <body>
+        <div class = "banner">
+            <div class="content">
+                <h1>Med Xpress</h1><br>
+            </div>
+            <form action="" class="login" method="post">
+                <h2>Log In</h2>
+                <label for="">Username*:</label><br>
+                <input type="text" placeholder="Username" required=""><br>
+                <label for="">Password*:</label><br>
+                <input type="text" placeholder="Password" required=""><br><br>
+                <input type="submit" value="Log In"><br>
+                <a href="{{url_for('register')}}">Don't have an account? Sign up</a>
+            </form>
+        </div>
+    </body>
+</html>
