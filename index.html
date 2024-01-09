@@ -1,0 +1,30 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pharmacy Management System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Pharmacy Management System</h1>
+    <div>
+      <h2>Medicine List</h2>
+      <ul id="medicine-list"></ul>
+    </div>
+    <div>
+      <h2>Add Medicine</h2>
+      <form id="add-medicine-form">
+        <label for="medicine-name">Name:</label>
+        <input type="text" id="medicine-name" required>
+        <label for="medicine-quantity">Quantity:</label>
+        <input type="number" id="medicine-quantity" required>
+        <button type="submit">Add Medicine</button>
+      </form>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
