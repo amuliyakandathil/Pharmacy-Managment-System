@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="title">
+  
+      <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../static/confirm_order.css">
+    </head>
+        <h2>MedExpress</h2>
+    </div>
+    <div class="d-flex">
+        <div class="mai">Thank You For Your Order......</div>
+        <form action="" method="">
+            <div class="Yorder">
+                <br>
+                <table>
+
+                  
+                  <tr>
+                    <td>UserName </td>
+                    <td>{{post["username"]}}</td>
+                  </tr>
+                  <tr>
+                    
+                    <td>Product Name {{post["product name"]}} </td>
+                    <td>Qua : {{post["qua"]}}</td>
+                    </tr>
+                    <tr>
+                    <td> Price </td>   
+                    <td>{{post["price"]}}</td>
+                  </tr>
+                  <tr>
+                    <td>Subtotal</td>
+                    <td>{{post["price"]}}</td>
+                  </tr>
+                  <tr>
+                    <td> Delivered by 
+        
+                    </td>
+                    <td>Saturday 4th July</td>
+                  </tr>
+                  <tr>
+                    <td>Shipping</td>
+                    <td>Free shipping</td>
+                  </tr>
+                </table><br>
+               
+                <button type="button">Place Order</button>
+               
+            </div><!-- Yorder -->
+            
+        </div>
+    </div>
